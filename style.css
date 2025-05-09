@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+.section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+label, input, select, button, textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004d40;
+}
+.chat-box {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  background-color: #fafafa;
+}
+.message {
+  margin-bottom: 0.5rem;
+}
+.bot {
+  color: #00796b;
+}
+
+.form-section {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
